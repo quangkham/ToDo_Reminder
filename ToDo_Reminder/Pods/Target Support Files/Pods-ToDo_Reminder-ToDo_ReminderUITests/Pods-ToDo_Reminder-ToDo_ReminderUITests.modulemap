@@ -1,0 +1,6 @@
+framework module Pods_ToDo_Reminder_ToDo_ReminderUITests {
+  umbrella header "Pods-ToDo_Reminder-ToDo_ReminderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

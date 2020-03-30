@@ -15,6 +15,15 @@
 		AD5A811924319CC800B03CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5A811724319CC800B03CD7 /* LaunchScreen.storyboard */; };
 		AD5A812424319CC800B03CD7 /* ToDo_ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A812324319CC800B03CD7 /* ToDo_ReminderTests.swift */; };
 		AD5A812F24319CC800B03CD7 /* ToDo_ReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A812E24319CC800B03CD7 /* ToDo_ReminderUITests.swift */; };
+		AD5A813E24319E3400B03CD7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A813D24319E3400B03CD7 /* Task.swift */; };
+		AD5A81422431A03D00B03CD7 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A81412431A03D00B03CD7 /* TaskListView.swift */; };
+		AD5A81452431A8B200B03CD7 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A81442431A8B200B03CD7 /* TaskListViewModel.swift */; };
+		AD5A81472431AA6800B03CD7 /* TackCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A81462431AA6800B03CD7 /* TackCellViewModel.swift */; };
+		AD5A814B2431B35F00B03CD7 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A814A2431B35F00B03CD7 /* TaskCell.swift */; };
+		AD5A814D2431F3EC00B03CD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD5A814C2431F3EC00B03CD7 /* GoogleService-Info.plist */; };
+		BC5DB8240C7AD1492688AED6 /* Pods_ToDo_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E4E3DABE2E3382FA84C32E /* Pods_ToDo_Reminder.framework */; };
+		C9305814C44942E671DFC819 /* Pods_ToDo_ReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAD36C31BC1821F525B4DC5 /* Pods_ToDo_ReminderTests.framework */; };
+		C9C66F81F42A82FD1DEE21EF /* Pods_ToDo_Reminder_ToDo_ReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7CCC8B45D439E12CF66EFF /* Pods_ToDo_Reminder_ToDo_ReminderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0711A9F05C2335C625E0E414 /* Pods-ToDo_Reminder-ToDo_ReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo_Reminder-ToDo_ReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-ToDo_Reminder-ToDo_ReminderUITests/Pods-ToDo_Reminder-ToDo_ReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0C2A60BE7AFE3D4C00C6CEBF /* Pods-ToDo_Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo_Reminder.release.xcconfig"; path = "Target Support Files/Pods-ToDo_Reminder/Pods-ToDo_Reminder.release.xcconfig"; sourceTree = "<group>"; };
+		2BAD36C31BC1821F525B4DC5 /* Pods_ToDo_ReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDo_ReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384C701A02BFE38940855BA3 /* Pods-ToDo_ReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo_ReminderTests.release.xcconfig"; path = "Target Support Files/Pods-ToDo_ReminderTests/Pods-ToDo_ReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		5994637453AC8D890E88D1D8 /* Pods-ToDo_Reminder-ToDo_ReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo_Reminder-ToDo_ReminderUITests.debug.xcconfig"; path = "Target Support Files/Pods-ToDo_Reminder-ToDo_ReminderUITests/Pods-ToDo_Reminder-ToDo_ReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66E4E3DABE2E3382FA84C32E /* Pods_ToDo_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDo_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7CCC8B45D439E12CF66EFF /* Pods_ToDo_Reminder_ToDo_ReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDo_Reminder_ToDo_ReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5A810924319CC400B03CD7 /* ToDo_Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo_Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5A810C24319CC400B03CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD5A810E24319CC400B03CD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,14 @@
 		AD5A812A24319CC800B03CD7 /* ToDo_ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDo_ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5A812E24319CC800B03CD7 /* ToDo_ReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_ReminderUITests.swift; sourceTree = "<group>"; };
 		AD5A813024319CC800B03CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5A813D24319E3400B03CD7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		AD5A81412431A03D00B03CD7 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		AD5A81442431A8B200B03CD7 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		AD5A81462431AA6800B03CD7 /* TackCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TackCellViewModel.swift; sourceTree = "<group>"; };
+		AD5A814A2431B35F00B03CD7 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		AD5A814C2431F3EC00B03CD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA369ED23E0CCD442E1F5035 /* Pods-ToDo_ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo_ReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-ToDo_ReminderTests/Pods-ToDo_ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDB755AFC86B28F17258D9CD /* Pods-ToDo_Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo_Reminder.debug.xcconfig"; path = "Target Support Files/Pods-ToDo_Reminder/Pods-ToDo_Reminder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5DB8240C7AD1492688AED6 /* Pods_ToDo_Reminder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9305814C44942E671DFC819 /* Pods_ToDo_ReminderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +96,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C66F81F42A82FD1DEE21EF /* Pods_ToDo_Reminder_ToDo_ReminderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29EEAF7E43A9745BC04255FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66E4E3DABE2E3382FA84C32E /* Pods_ToDo_Reminder.framework */,
+				7D7CCC8B45D439E12CF66EFF /* Pods_ToDo_Reminder_ToDo_ReminderUITests.framework */,
+				2BAD36C31BC1821F525B4DC5 /* Pods_ToDo_ReminderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B1BFB241C6EBA04BE0BFD7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDB755AFC86B28F17258D9CD /* Pods-ToDo_Reminder.debug.xcconfig */,
+				0C2A60BE7AFE3D4C00C6CEBF /* Pods-ToDo_Reminder.release.xcconfig */,
+				5994637453AC8D890E88D1D8 /* Pods-ToDo_Reminder-ToDo_ReminderUITests.debug.xcconfig */,
+				0711A9F05C2335C625E0E414 /* Pods-ToDo_Reminder-ToDo_ReminderUITests.release.xcconfig */,
+				BA369ED23E0CCD442E1F5035 /* Pods-ToDo_ReminderTests.debug.xcconfig */,
+				384C701A02BFE38940855BA3 /* Pods-ToDo_ReminderTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD5A810024319CC400B03CD7 = {
 			isa = PBXGroup;
 			children = (
+				AD5A814C2431F3EC00B03CD7 /* GoogleService-Info.plist */,
 				AD5A810B24319CC400B03CD7 /* ToDo_Reminder */,
 				AD5A812224319CC800B03CD7 /* ToDo_ReminderTests */,
 				AD5A812D24319CC800B03CD7 /* ToDo_ReminderUITests */,
 				AD5A810A24319CC400B03CD7 /* Products */,
+				2B1BFB241C6EBA04BE0BFD7A /* Pods */,
+				29EEAF7E43A9745BC04255FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +153,10 @@
 		AD5A810B24319CC400B03CD7 /* ToDo_Reminder */ = {
 			isa = PBXGroup;
 			children = (
-				AD5A810C24319CC400B03CD7 /* AppDelegate.swift */,
-				AD5A810E24319CC400B03CD7 /* SceneDelegate.swift */,
+				AD5A81432431A89900B03CD7 /* ViewModels */,
+				AD5A81402431A01200B03CD7 /* Views */,
+				AD5A813F24319F6900B03CD7 /* App */,
+				AD5A813C24319E0C00B03CD7 /* Models */,
 				AD5A811024319CC400B03CD7 /* ContentView.swift */,
 				AD5A811224319CC800B03CD7 /* Assets.xcassets */,
 				AD5A811724319CC800B03CD7 /* LaunchScreen.storyboard */,
@@ -136,6 +192,41 @@
 			path = ToDo_ReminderUITests;
 			sourceTree = "<group>";
 		};
+		AD5A813C24319E0C00B03CD7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD5A813D24319E3400B03CD7 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD5A813F24319F6900B03CD7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AD5A810C24319CC400B03CD7 /* AppDelegate.swift */,
+				AD5A810E24319CC400B03CD7 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AD5A81402431A01200B03CD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD5A81412431A03D00B03CD7 /* TaskListView.swift */,
+				AD5A814A2431B35F00B03CD7 /* TaskCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD5A81432431A89900B03CD7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD5A81442431A8B200B03CD7 /* TaskListViewModel.swift */,
+				AD5A81462431AA6800B03CD7 /* TackCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5A813324319CC800B03CD7 /* Build configuration list for PBXNativeTarget "ToDo_Reminder" */;
 			buildPhases = (
+				8D90BB6B2CB1798A218F1BE4 /* [CP] Check Pods Manifest.lock */,
 				AD5A810524319CC400B03CD7 /* Sources */,
 				AD5A810624319CC400B03CD7 /* Frameworks */,
 				AD5A810724319CC400B03CD7 /* Resources */,
+				52D8647FE5B1C142B11FB96F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5A813624319CC800B03CD7 /* Build configuration list for PBXNativeTarget "ToDo_ReminderTests" */;
 			buildPhases = (
+				B1BE65AD7AED748CC9D81064 /* [CP] Check Pods Manifest.lock */,
 				AD5A811B24319CC800B03CD7 /* Sources */,
 				AD5A811C24319CC800B03CD7 /* Frameworks */,
 				AD5A811D24319CC800B03CD7 /* Resources */,
@@ -178,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5A813924319CC800B03CD7 /* Build configuration list for PBXNativeTarget "ToDo_ReminderUITests" */;
 			buildPhases = (
+				8D84D438898810E48ABF9292 /* [CP] Check Pods Manifest.lock */,
 				AD5A812624319CC800B03CD7 /* Sources */,
 				AD5A812724319CC800B03CD7 /* Frameworks */,
 				AD5A812824319CC800B03CD7 /* Resources */,
+				7BED0DA515111025C099838D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD5A811924319CC800B03CD7 /* LaunchScreen.storyboard in Resources */,
+				AD5A814D2431F3EC00B03CD7 /* GoogleService-Info.plist in Resources */,
 				AD5A811624319CC800B03CD7 /* Preview Assets.xcassets in Resources */,
 				AD5A811324319CC800B03CD7 /* Assets.xcassets in Resources */,
 			);
@@ -262,14 +359,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52D8647FE5B1C142B11FB96F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDo_Reminder/Pods-ToDo_Reminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDo_Reminder/Pods-ToDo_Reminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDo_Reminder/Pods-ToDo_Reminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BED0DA515111025C099838D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDo_Reminder-ToDo_ReminderUITests/Pods-ToDo_Reminder-ToDo_ReminderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDo_Reminder-ToDo_ReminderUITests/Pods-ToDo_Reminder-ToDo_ReminderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDo_Reminder-ToDo_ReminderUITests/Pods-ToDo_Reminder-ToDo_ReminderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D84D438898810E48ABF9292 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDo_Reminder-ToDo_ReminderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D90BB6B2CB1798A218F1BE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDo_Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1BE65AD7AED748CC9D81064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDo_ReminderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD5A810524319CC400B03CD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5A81472431AA6800B03CD7 /* TackCellViewModel.swift in Sources */,
+				AD5A813E24319E3400B03CD7 /* Task.swift in Sources */,
 				AD5A810D24319CC400B03CD7 /* AppDelegate.swift in Sources */,
+				AD5A81422431A03D00B03CD7 /* TaskListView.swift in Sources */,
+				AD5A814B2431B35F00B03CD7 /* TaskCell.swift in Sources */,
 				AD5A810F24319CC400B03CD7 /* SceneDelegate.swift in Sources */,
 				AD5A811124319CC400B03CD7 /* ContentView.swift in Sources */,
+				AD5A81452431A8B200B03CD7 /* TaskListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +637,7 @@
 		};
 		AD5A813424319CC800B03CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB755AFC86B28F17258D9CD /* Pods-ToDo_Reminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +657,7 @@
 		};
 		AD5A813524319CC800B03CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2A60BE7AFE3D4C00C6CEBF /* Pods-ToDo_Reminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +677,7 @@
 		};
 		AD5A813724319CC800B03CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA369ED23E0CCD442E1F5035 /* Pods-ToDo_ReminderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +699,7 @@
 		};
 		AD5A813824319CC800B03CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384C701A02BFE38940855BA3 /* Pods-ToDo_ReminderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +721,7 @@
 		};
 		AD5A813A24319CC800B03CD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5994637453AC8D890E88D1D8 /* Pods-ToDo_Reminder-ToDo_ReminderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +741,7 @@
 		};
 		AD5A813B24319CC800B03CD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0711A9F05C2335C625E0E414 /* Pods-ToDo_Reminder-ToDo_ReminderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
