@@ -7,7 +7,7 @@
 //
 
 import Foundation
-struct Task  : Identifiable {
+struct Task  : Identifiable , Codable {
     
     var id : String = UUID().uuidString
     var title : String
@@ -16,7 +16,7 @@ struct Task  : Identifiable {
     
 }
 
-enum TaskPriority{
+enum TaskPriority : Int , Codable {
     
     case high
     case medium

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,8 @@
 		AD5A81472431AA6800B03CD7 /* TackCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A81462431AA6800B03CD7 /* TackCellViewModel.swift */; };
 		AD5A814B2431B35F00B03CD7 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5A814A2431B35F00B03CD7 /* TaskCell.swift */; };
 		AD5A814D2431F3EC00B03CD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD5A814C2431F3EC00B03CD7 /* GoogleService-Info.plist */; };
+		ADCF3B4B2432EA8200C431AE /* BaseTaskRespositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF3B4A2432EA8200C431AE /* BaseTaskRespositories.swift */; };
+		ADCF3B4D2432EDE400C431AE /* AppDelelgate+Resolving.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF3B4C2432EDE400C431AE /* AppDelelgate+Resolving.swift */; };
 		BC5DB8240C7AD1492688AED6 /* Pods_ToDo_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E4E3DABE2E3382FA84C32E /* Pods_ToDo_Reminder.framework */; };
 		C9305814C44942E671DFC819 /* Pods_ToDo_ReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAD36C31BC1821F525B4DC5 /* Pods_ToDo_ReminderTests.framework */; };
 		C9C66F81F42A82FD1DEE21EF /* Pods_ToDo_Reminder_ToDo_ReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7CCC8B45D439E12CF66EFF /* Pods_ToDo_Reminder_ToDo_ReminderUITests.framework */; };
@@ -71,6 +73,8 @@
 		AD5A81462431AA6800B03CD7 /* TackCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TackCellViewModel.swift; sourceTree = "<group>"; };
 		AD5A814A2431B35F00B03CD7 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		AD5A814C2431F3EC00B03CD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ADCF3B4A2432EA8200C431AE /* BaseTaskRespositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTaskRespositories.swift; sourceTree = "<group>"; };
+		ADCF3B4C2432EDE400C431AE /* AppDelelgate+Resolving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelelgate+Resolving.swift"; sourceTree = "<group>"; };
 		BA369ED23E0CCD442E1F5035 /* Pods-ToDo_ReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo_ReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-ToDo_ReminderTests/Pods-ToDo_ReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDB755AFC86B28F17258D9CD /* Pods-ToDo_Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo_Reminder.debug.xcconfig"; path = "Target Support Files/Pods-ToDo_Reminder/Pods-ToDo_Reminder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,7 +127,6 @@
 				BA369ED23E0CCD442E1F5035 /* Pods-ToDo_ReminderTests.debug.xcconfig */,
 				384C701A02BFE38940855BA3 /* Pods-ToDo_ReminderTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +156,7 @@
 		AD5A810B24319CC400B03CD7 /* ToDo_Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				ADCF3B492432E96800C431AE /* Respositores */,
 				AD5A81432431A89900B03CD7 /* ViewModels */,
 				AD5A81402431A01200B03CD7 /* Views */,
 				AD5A813F24319F6900B03CD7 /* App */,
@@ -205,6 +209,7 @@
 			children = (
 				AD5A810C24319CC400B03CD7 /* AppDelegate.swift */,
 				AD5A810E24319CC400B03CD7 /* SceneDelegate.swift */,
+				ADCF3B4C2432EDE400C431AE /* AppDelelgate+Resolving.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -225,6 +230,14 @@
 				AD5A81462431AA6800B03CD7 /* TackCellViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ADCF3B492432E96800C431AE /* Respositores */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF3B4A2432EA8200C431AE /* BaseTaskRespositories.swift */,
+			);
+			path = Respositores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,10 +481,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD5A81472431AA6800B03CD7 /* TackCellViewModel.swift in Sources */,
+				ADCF3B4D2432EDE400C431AE /* AppDelelgate+Resolving.swift in Sources */,
 				AD5A813E24319E3400B03CD7 /* Task.swift in Sources */,
 				AD5A810D24319CC400B03CD7 /* AppDelegate.swift in Sources */,
 				AD5A81422431A03D00B03CD7 /* TaskListView.swift in Sources */,
 				AD5A814B2431B35F00B03CD7 /* TaskCell.swift in Sources */,
+				ADCF3B4B2432EA8200C431AE /* BaseTaskRespositories.swift in Sources */,
 				AD5A810F24319CC400B03CD7 /* SceneDelegate.swift in Sources */,
 				AD5A811124319CC400B03CD7 /* ContentView.swift in Sources */,
 				AD5A81452431A8B200B03CD7 /* TaskListViewModel.swift in Sources */,

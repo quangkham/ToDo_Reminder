@@ -11,6 +11,10 @@ target 'ToDo_Reminder' do
   pod 'Firebase/Auth'
   pod 'Firebase/Analytics'
   pod 'Firebase/Database'
+  pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift'
+	pod 'Resolver'
+  pod 'Disk', '~> 0.6.4'
 
 
 

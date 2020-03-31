@@ -8,26 +8,40 @@
 
 import SwiftUI
 import Combine
+import Resolver
 
 
 
 class TaskListViewModel: ObservableObject {
   @Published var taskCellViewModels = [TaskCellViewModel]()
+    @Published var taskRespository : TaskRespository = Resolver.resolve()
   
   private var cancellables = Set<AnyCancellable>()
   
   init() {
-    self.taskCellViewModels = testDataTasks.map { task in
-      TaskCellViewModel(task: task)
-    }
+    taskRespository.$tasks.map{ tasks in
+        tasks.map{ task in
+            
+            TaskCellViewModel(task: task)
+        }
+    }.assign(to: \.taskCellViewModels, on: self)
+    .store(in: &cancellables)
+    
   }
   
   func removeTasks(atOffsets indexSet: IndexSet) {
-    taskCellViewModels.remove(atOffsets: indexSet)
+//    remove from repo
+    let viewModels = indexSet.lazy.map{self.taskCellViewModels[$0]}
+    viewModels.forEach{ taskCellVM in
+        taskRespository.removeTask(taskCellVM.task)
+    }
+//    remove from VM
+//    taskCellViewModels.remove(atOffsets: indexSet)
   }
   
   func addTask(task: Task) {
-    taskCellViewModels.append(TaskCellViewModel(task: task))
+    taskRespository.addTask(task)
+    
   }
 }
 
